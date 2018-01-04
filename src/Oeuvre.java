@@ -22,5 +22,9 @@ public class Oeuvre {
 	public String getCatagorie(){
 		return this.categorie;
 	}
+	
+	public String toString(){
+		return this.id+" - "+this.titre+ " - "+this.categorie;
+	}
 
 }
